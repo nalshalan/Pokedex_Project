@@ -1,0 +1,21 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+body {
+  background-color: #252525;
+  color: #ffffff;
+}
+
+ul > li {
+  display: auto;
+  list-style-type: none;
+  grid-template-columns: 1fr 1fr;
+  place-items: center;
+  border: 2px solid white;
+  margin: 1rem 0;
+  gap: .5rem;
+}
